@@ -9,4 +9,4 @@ Installation:
 
 Note : Please use it at your own risk.
 
-If you want any modification and like to share some feedback, Please send me email at itmyprofession@gmail<dot>com
+If you want any modification and like to share some feedback, Please send me email at itmyprofession[at]gmail[dot]com
