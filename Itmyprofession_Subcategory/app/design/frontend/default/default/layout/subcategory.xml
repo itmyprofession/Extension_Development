@@ -16,7 +16,6 @@
             </action>
         </reference>
         <reference name="content">
-            <block type="page/html_breadcrumbs" name="subcategory.breadcrumbs" as="subcategory.breadcrumbs"/>
             <block type="subcategory/collection" name="itmyprofessoin.subcategory" template="subcategory/list.phtml"/>
         </reference>
     </subcategory_index_index>
