@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category   Itmyprofession
+* @package    Itmyprofession_Subcategory
+* @author     itmyprofession@gmail.com
+* @website    
+* @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+-->
+<config>
+    <modules>
+        <Itmyprofession_Subcategory>
+            <version>1.0.0</version>
+        </Itmyprofession_Subcategory>
+    </modules>
+    <global>
+        <models>
+            <subcategory>
+                <class>Itmyprofession_Subcategory_Model</class>
+            </subcategory>
+        </models>
+        <blocks>
+            <subcategory>
+                <class>Itmyprofession_Subcategory_Block</class>
+            </subcategory>
+        </blocks>
+        <helpers>
+            <subcategory>
+                <class>Itmyprofession_Subcategory_Helper</class>
+            </subcategory>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <subcategory>
+                <use>standard</use>
+                <args>
+                    <module>Itmyprofession_Subcategory</module>
+                    <frontName>subcategory</frontName>
+                </args>
+            </subcategory>
+        </routers>
+        <translate>
+            <modules>
+                <Itmyprofession_Subcategory>
+                    <files>
+                        <default>Itmyprofession_Subcategory.csv</default>
+                    </files>
+                </Itmyprofession_Subcategory>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <subcategory>
+                    <file>subcategory.xml</file>
+                </subcategory>
+            </updates>
+        </layout>
+    </frontend>
+</config>
